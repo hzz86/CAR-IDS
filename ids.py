@@ -116,8 +116,6 @@ def ui():
                     score = dos_model.predict(X)  # 테스트 데이터에 대해서 정확도 평가
                     attack = 'Dos attack was detected.'
 
-                    print('Dos 공격')
-
                     record()
 
                 else:
@@ -131,8 +129,6 @@ def ui():
                     # 비정상 패킷 탐지
                     score = fuzzy_model.predict(X)  # 테스트 데이터에 대해서 정확도 평가
                     attack = 'Fuzzy attack was detected.'
-
-                    print('Fuzzy 공격')
 
                     record()
 
