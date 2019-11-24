@@ -49,7 +49,7 @@ def main():
     root.title('Attack Tool')  # UI 타이틀 설정
     root.geometry('300x100')  # UI 사이즈 설정
     root.resizable(FALSE, FALSE)  # 사이즈 변경 불가
-    root.iconbitmap('icon.ico')     # UI 아이콘 설정
+    root.iconbitmap('swords.ico')     # UI 아이콘 설정
     root.mainloop()
 
 if __name__ == '__main__':
